@@ -1,0 +1,15 @@
+.container {
+  border: 2px var(--foreground) solid;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 1024px;
+  max-height: 100vh;
+}
+
+.delete {
+  color: var(--delete);
+}
+
+.edit {
+  color: blue;
+}

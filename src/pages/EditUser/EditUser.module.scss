@@ -1,0 +1,27 @@
+@use "../../shared/mixins.module.scss" as *;
+
+.container {
+  padding: 1rem;
+  align-self: start;
+  min-width: 45rem;
+  border: 2px var(--foreground) solid;
+  border-radius: 5px;
+  .wrapped {
+    @include flex-column;
+    gap: 2rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
+
+.name {
+  @include flex-column;
+  gap: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  color: var(--delete);
+}

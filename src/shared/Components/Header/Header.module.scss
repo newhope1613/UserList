@@ -1,0 +1,27 @@
+.container {
+  background: var(--foreground);
+  color: var(--background);
+  height: 5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding-left: 5rem;
+  }
+  .navigationLinks {
+    font-weight: 700;
+    padding-right: 3rem;
+    display: flex;
+    gap: 2rem;
+  }
+  .a {
+    transition: transform 300ms ease-in-out;
+    cursor: pointer;
+    &:hover {
+      transform: translate(0, -5px);
+    }
+  }
+}

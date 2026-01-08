@@ -2,7 +2,7 @@ import { message } from "antd";
 import styles from "./CreateUser.module.scss";
 import type { UserType } from "../../shared/types";
 import { createUser } from "../../features/userApi/user";
-import UserForm from "../../shared/Hooks/UserForm/UserForm";
+import UserForm from "../../shared/Form/UserForm/UserForm";
 
 const CreateUser = () => {
   const [messageApi, contextHolder] = message.useMessage();

@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router";
-import { publickRoutes } from "./shared/routes";
+import { publickRoutes } from "./config/routes";
 
 const AppRouter = () => {
   return (

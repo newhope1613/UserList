@@ -5,8 +5,8 @@ import type { UserType } from "../../shared/types";
 import { useEffect, useMemo, useState } from "react";
 import api from "../../shared/api/api";
 import { deleteUser, patchUser } from "../../features/userApi/user";
-import UserForm from "../../shared/Hooks/UserForm/UserForm";
 import SearchComponent from "../../shared/Components/SearchComponent/SearchComponent";
+import UserForm from "../../shared/Form/UserForm/UserForm";
 
 const ListOfUser = () => {
   const [data, setData] = useState<UserType[]>([]);

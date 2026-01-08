@@ -1,6 +1,6 @@
 import CreateUser from "../pages/CreateUser/CreateUser";
 import ListOfUser from "../pages/ListOfUser/ListOfUser";
-import { EDIT_USER, USERS } from "./consts";
+import { EDIT_USER, USERS } from "../shared/consts";
 
 export const publickRoutes = [
   {

@@ -1,0 +1,13 @@
+@use "../../shared//mixins.module.scss" as *;
+
+.container {
+  padding: 1rem;
+  align-self: start;
+  min-width: 45rem;
+  border: 2px var(--foreground) solid;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 2rem;
+}

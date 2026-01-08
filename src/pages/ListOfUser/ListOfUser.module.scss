@@ -10,6 +10,15 @@
   color: var(--delete);
 }
 
+.searchInput {
+  display: flex;
+  width: 50%;
+}
+
 .edit {
-  color: blue;
+  color: var(--edit);
+}
+
+.table {
+  max-width: 1024px;
 }

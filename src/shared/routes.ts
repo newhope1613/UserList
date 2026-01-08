@@ -1,4 +1,4 @@
-import EditUser from "../pages/EditUser/EditUser";
+import CreateUser from "../pages/CreateUser/CreateUser";
 import ListOfUser from "../pages/ListOfUser/ListOfUser";
 import { EDIT_USER, USERS } from "./consts";
 
@@ -9,6 +9,6 @@ export const publickRoutes = [
   },
   {
     path: EDIT_USER,
-    Component: EditUser,
+    Component: CreateUser,
   },
 ];

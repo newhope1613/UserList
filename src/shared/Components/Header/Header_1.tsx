@@ -12,7 +12,7 @@ const Header = () => {
           Список пользователей
         </Link>
         <Link className={styles.a} to={EDIT_USER}>
-          Добавить/Редактировать пользователя
+          Добавить пользователя
         </Link>
       </div>
     </div>
